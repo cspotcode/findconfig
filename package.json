@@ -1,5 +1,5 @@
 {
-    "name": "findconfig",
+    "name": "@cspotcode/findconfig",
     "version": "0.0.0",
     "main": "./lib-cjs/index.js",
     "exports": {
@@ -12,6 +12,19 @@
         "lib-cjs",
         "types"
     ],
+    "author": {
+        "name": "Andrew Bradley",
+        "email": "cspotcode@gmail.com",
+        "url": "https://github.com/cspotcode"
+    },
+    "homepage": "https://github.com/cspotcode/findconfig",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/cspotcode/findconfig.git"
+    },
+    "bugs": {
+        "url": "https://github.com/cspotcode/findconfig/issues"
+    },
     "scripts": {
         "build": "tsc -p ./tsconfig.json && tsc -p ./tsconfig.mjs.json && mv ./lib-mjs/index.js ./lib-mjs/index.mjs"
     },

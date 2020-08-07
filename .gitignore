@@ -1,0 +1,5 @@
+/.vscode
+/lib-mjs
+/lib-cjs
+/types
+/node_modules

@@ -1,0 +1,22 @@
+{
+    "name": "findconfig",
+    "version": "0.0.0",
+    "main": "./lib-cjs/index.js",
+    "exports": {
+        "import": "./lib-esm/index.mjs",
+        "require": "./lib-cjs/index.js"
+    },
+    "types": "./types/index.d.ts",
+    "files": [
+        "lib-mjs",
+        "lib-cjs",
+        "types"
+    ],
+    "scripts": {
+        "build": "tsc -p ./tsconfig.json && tsc -p ./tsconfig.mjs.json && mv ./lib-mjs/index.js ./lib-mjs/index.mjs"
+    },
+    "devDependencies": {
+        "@types/node": "^14.0.27",
+        "typescript": "3.9.7"
+    }
+}

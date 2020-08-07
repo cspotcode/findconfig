@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+        "rootDir": "src",
+        "outDir": "lib-cjs",
+        "declaration": true,
+        "declarationDir": "types",
+        "downlevelIteration": true,
+        "strict": true,
+        "lib": ["ESNext"],
+        "moduleResolution": "node"
+    }
+}
